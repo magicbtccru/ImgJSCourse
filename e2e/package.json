@@ -1,0 +1,62 @@
+{
+  "name": "e2e",
+  "private": true,
+  "author": "meow",
+  "description": "E2E test suite",
+  "scripts": {
+    "client:start": "parcel --no-autoinstall clients/index.html",
+    "cypress:open": "cypress open",
+    "cypress:headless": "cypress run",
+    "generate-test": "yarn node generate-test.mjs"
+  },
+  "dependencies": {
+    "@ImgJSCourse/audio": "workspace:^",
+
+    "@ImgJSCourse/aws-s3-multipart": "workspace:^",
+    "@ImgJSCourse/aws-s3": "workspace:^",
+    "@ImgJSCourse/box": "workspace:^",
+    "@ImgJSCourse/companion-client": "workspace:^",
+    "@ImgJSCourse/core": "workspace:^",
+    
+    "@ImgJSCourse/file-input": "workspace:^",
+    "@ImgJSCourse/form": "workspace:^",
+    "@ImgJSCourse/image-editor": "workspace:^",
+    "@ImgJSCourse/informer": "workspace:^",
+    "@ImgJSCourse/instagram": "workspace:^",
+    "@ImgJSCourse/onedrive": "workspace:^",
+    "@ImgJSCourse/progress-bar": "workspace:^",
+    "@ImgJSCourse/dashboard": "workspace:^",
+    "@ImgJSCourse/drag-drop": "workspace:^",
+    "@ImgJSCourse/drop-target": "workspace:^",
+    "@ImgJSCourse/dropbox": "workspace:^",
+    "@ImgJSCourse/golden-retriever": "workspace:^",
+    "@ImgJSCourse/google-drive": "workspace:^",
+    "@ImgJSCourse/facebook": "workspace:^",
+    "@ImgJSCourse/provider-views": "workspace:^",
+    "@ImgJSCourse/screen-capture": "workspace:^",
+    "@ImgJSCourse/status-bar": "workspace:^",
+    "@ImgJSCourse/store-default": "workspace:^",
+    "@ImgJSCourse/store-redux": "workspace:^",
+    "@ImgJSCourse/thumbnail-generator": "workspace:^",
+    "@ImgJSCourse/transloadit": "workspace:^",
+    "@ImgJSCourse/tus": "workspace:^",
+    "@ImgJSCourse/unsplash": "workspace:^",
+    "@ImgJSCourse/url": "workspace:^",
+    "@ImgJSCourse/webcam": "workspace:^",
+    "@ImgJSCourse/xhr-upload": "workspace:^",
+    "@ImgJSCourse/zoom": "workspace:^"
+  },
+  "devDependencies": {
+    "@parcel/transformer-vue": "^3.0.0",
+    "cypress": "^13.0.0",
+    "cypress-terminal-report": "^5.0.0",
+    "deep-freeze": "^0.0.1",
+    "parcel": "^3.0.0",
+    "process": "^0.11.10",
+    "prompts": "^2.4.2",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "typescript": "~5.1",
+    "vue": "^3.2.33"
+  }
+}
